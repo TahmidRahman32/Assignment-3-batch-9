@@ -1,0 +1,13 @@
+.footer-container {
+   display: flex;
+   flex-direction: column;
+}
+.footer-box{
+   justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+   .text-box {
+      display: none;
+   }
+}
